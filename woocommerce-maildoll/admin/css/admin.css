@@ -1,0 +1,108 @@
+.maildoll-title {
+   color: #1F1F53;
+   font-weight: 800;
+   margin: 1em 0;
+   text-align: center;
+   font-size: 32px;
+   padding: 20px 20px;
+   background: #fff;
+   margin-bottom: 15px;
+}
+
+.maildoll-settings {
+   border-radius: 5px;
+   background-color: #FFF;
+   padding: 20px;
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+ }
+
+.maildoll-settings label {
+   color: #1F1F53;
+   font-size: 16px;
+   font-weight: 600;
+}
+
+.maildoll-settings input[type=password],input[type=url], input[type =email] {
+   width: 100%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   display: inline-block;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+ }
+ 
+ .maildoll-settings input[type=password] {
+   letter-spacing: 2px;
+ }
+ 
+
+
+ .maildoll-settings input[type=submit] {
+   width: 100%;
+   font-size: 16px;
+   font-weight: 500;
+   background-color: #1F1F53;
+   color: white;
+   padding: 12px 20px;
+   margin: 8px 0;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+ }
+
+ .maildoll-settings input[type=submit]:hover {
+   background-color: #1F1F52;
+ }
+ 
+
+
+ /* oreder details */
+ .order-table {
+   background: #FFF;
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.order-table table{
+   border-collapse: collapse;
+   width: 100%;
+   color: #1F1F53;
+
+}
+.order-table thead {
+   background: #1F1F52;
+   color: #fff;
+}
+ 
+.product-table  tr {
+   height: 50px;
+   text-align: center;
+   border: 1px solid #ccc;
+}
+
+
+.deshboard {
+   display: grid;
+   grid-template-columns: 1.5fr 1fr;
+   align-items: center;
+   background: #FFF;
+   padding: 80px 40px;
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.deshboard img {
+   width: 400px;
+}
+
+.deshboard h3 {
+   font-size: 38px;
+   font-weight: 700;
+   line-height: 1.2;
+   color: #1F1F52;
+}
+.deshboard p {
+   font-size: 18px;
+   font-weight: 400;
+   color: #718096;
+   margin-top: -22px;
+}
